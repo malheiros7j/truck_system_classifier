@@ -62,6 +62,9 @@ class ClassifyMaintenance(object):
 
         # Join Predict into the original data
         original_data['score_prediction'] = pred[:,1]
+        original_data['class'] = original_data.apply(lambda x: 'pos' if x['score_prediction'] >= 0.3 else '0',axis=1)
+        
+        original_data = original_data.drop(columns=['score_prediction'],axis=1)
         # original_data = original_data.sort_values('score_prediction',ascending=False)
         
         return original_data.to_json(orient='records',date_format='iso')

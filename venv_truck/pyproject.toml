@@ -21,7 +21,6 @@ ipywidgets = "^8.0.4"
 hyperopt = "^0.2.7"
 plotnine = "^0.10.1"
 sklearn-evaluation = "^0.11.3"
-streamlit = "^1.19.0"
 Flask = "^2.2.3"
 
 

@@ -13,7 +13,7 @@ class ClassifyMaintenance(object):
 
     def data_cleaning(self,df1):
 
-        df1 = df1.replace(np.nan,0)
+        df1 = df1.replace('na',0)
         df1 = df1.astype({col: float for col in df1.columns[1:]})
 
         # print(df1.columns)
@@ -62,7 +62,7 @@ class ClassifyMaintenance(object):
 
         # Join Predict into the original data
         original_data['score_prediction'] = pred[:,1]
-        original_data = original_data.sort_values('score_prediction',ascending=False)
+        # original_data = original_data.sort_values('score_prediction',ascending=False)
         
         return original_data.to_json(orient='records',date_format='iso')
 

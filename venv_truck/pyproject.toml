@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "venv-truck"
+version = "0.1.0"
+description = ""
+authors = ["Jordan Malheiros <malheiros7j@gmail.com>"]
+readme = "README.md"
+packages = [{include = "venv_truck"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "1.22.4"
+pandas = "^1.5.3"
+seaborn = "^0.12.2"
+scikit-learn = "^1.2.1"
+lightgbm = "^3.3.5"
+xgboost = "^1.7.4"
+scikit-plot = "^0.3.7"
+imbalanced-learn = "^0.10.1"
+optuna = "^3.1.0"
+ipywidgets = "^8.0.4"
+hyperopt = "^0.2.7"
+plotnine = "^0.10.1"
+sklearn-evaluation = "^0.11.3"
+streamlit = "^1.19.0"
+Flask = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^3.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

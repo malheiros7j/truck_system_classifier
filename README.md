@@ -9,7 +9,7 @@ O link da Planilha para realização da predição utilizando Google Spreedsheet
 
 Para realizar a predição é necessário apenas preencher as colunas com os dados de teste e selecionar o botão localizado na parte superior escrito "Air System Classifier" e selecionar a opção "Get Classification Score". 
 
-ps: Importante lembrar que no google spreedshets devemos usar ',' em vez de '.'. Por isso caso deseja inputar novos valores de entrada será necessário alterar esse carácter.
+PS: Importante lembrar que no google spreedshets devemos usar ',' em vez de '.'. Por isso caso deseja inputar novos valores de entrada será necessário alterar esse carácter.
 
 
 O relatório com as respostas as perguntas feitas pelo desafio se encontra na pasta reports e os jupyter-notebooks com o desenvolvimento do projeto por meio de ciclos se encontra na pasta de notebooks.

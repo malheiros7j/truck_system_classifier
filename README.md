@@ -1,6 +1,6 @@
 ## Consultoria de dados para uma empresa terceirizada de transporte de caminhões.
 
-O modelo em produção está disponível por meio de uma API no endereço: https://case-tecnico-air-system.onrender.com
+O modelo em produção está disponível por meio de uma API no endereço: https://case-tecnico-air-system.onrender.com .
 
 O link da Planilha para realização da predição utilizando Google Spreedsheets: https://docs.google.com/spreadsheets/d/1bgfecJ5fU1G6zSUoEQJ4o5cLz5hyjOxzeh-2ByTfDrg/edit?usp=sharing 
 
